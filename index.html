@@ -2,175 +2,200 @@
 <html lang="en" class="bg-white antialiased">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Ben Cromwell</title>
   <meta name="theme-color" content="#ffffff">
   <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+        integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous">
   <style>
     .font-nunito {
       font-family: 'Nunito', sans-serif;
     }
+    .column {
+      margin: 5px;
+    }
+    .section-primary {
+      padding-top: 24px;
+    }
   </style>
 </head>
-<body>
-<div class="container mx-auto font-nunito">
-  <h1 class="text-4xl font-bold tracking-wider">
-    Ben Cromwell
-  </h1>
-  <h2>Senior Software Engineer</h2>
+<body class="font-nunito">
+<section class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1">
+        Ben Cromwell
+      </h1>
+      <h2 class="subtitle is-4">
+        Senior Software Engineer
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="section section-primary">
+  <div class="container">
+    <h3 class="title">// Selected Projects</h3>
 
-  <h3 class="text-lg font-bold font-mono mt-5">// Selected Projects</h3>
-
-  <div class="flex">
-    <div class="flex-1 text-gray-700 bg-blue-100 px-4 py-2 m-4 shadow-lg">
-      <h2 class="font-bold text-lg text-center mb-2">
-        <a href="https://github.com/bencromwell/sshush" class="hover:text-blue-800 hover:underline">
-          Sshush <span class="text-gray-600">(Python)</span>
-        </a>
-      </h2>
-      <p>
-        SSH config file management using YAML.
-      </p>
-      <p>
-        Allows for grouping of SSH hosts and related properties.
-      </p>
-      <p class="mt-2">
-        <a class="text-blue-800 underline text-sm" href="https://github.com/bencromwell/sshush">
-          https://github.com/bencromwell/sshush
-        </a>
-      </p>
+    <div class="columns has-text-grey-darker">
+      <div class="column has-background-light">
+        <h2 class="title is-4">
+          <a href="https://github.com/bencromwell/sshush" class="hover:text-blue-800 hover:underline">
+            Sshush <span class="tag is-primary">Python</span>
+          </a>
+        </h2>
+        <p>
+          SSH config file management using YAML.
+        </p>
+        <p>
+          Allows for grouping of SSH hosts and related properties.
+        </p>
+        <p class="mt-2">
+          <a class="is-size-7" href="https://github.com/bencromwell/sshush">
+            https://github.com/bencromwell/sshush
+          </a>
+        </p>
+      </div>
+      <div class="column has-background-light">
+        <h2 class="title is-4">
+          <a href="https://github.com/bencromwell/tcphp" class="hover:text-blue-800 hover:underline">
+            TCPHP <span class="tag is-info">PHP</span>
+          </a>
+        </h2>
+        <p>
+          Bidirectional JSON based messaging over TCP/IP
+        </p>
+        <p class="mt-2">
+          <a class="is-size-7" href="https://github.com/bencromwell/tcphp">
+            https://github.com/bencromwell/tcphp
+          </a>
+          <br>
+          <a class="is-size-7" href="https://github.com/bencromwell/2-way-json-messaging">
+            https://github.com/bencromwell/2-way-json-messaging
+          </a>
+        </p>
+      </div>
+      <div class="column has-background-light">
+        <h2 class="title is-4">
+          <a href="https://github.com/bencromwell/microdata-parser-notifier"
+             class="hover:text-blue-800 hover:underline">
+            Microdata Parser <span class="tag is-info">PHP</span>
+          </a>
+        </h2>
+        <p>
+          CLI script for notifying a user of new schema.org Product items found within a webpage. Gumtree listing
+          notifications.
+        </p>
+        <p class="mt-2">
+          <a class="is-size-7" href="https://github.com/bencromwell/microdata-parser-notifier">
+            https://github.com/bencromwell/microdata-parser-notifier
+          </a>
+        </p>
+      </div>
     </div>
-    <div class="flex-1 text-gray-700 bg-blue-100 px-4 py-2 m-4 shadow-lg">
-      <h2 class="font-bold text-lg text-center mb-2">
-        <a href="https://github.com/bencromwell/tcphp" class="hover:text-blue-800 hover:underline">
-          TCPHP <span class="text-gray-600">(PHP)</span>
-        </a>
-      </h2>
-      <p>
-        Bidirectional JSON based messaging over TCP/IP
-      </p>
-      <p class="mt-2">
-        <a class="text-blue-800 underline text-sm" href="https://github.com/bencromwell/tcphp">
-          https://github.com/bencromwell/tcphp
-        </a>
-        <br>
-        <a class="text-blue-800 underline text-sm" href="https://github.com/bencromwell/2-way-json-messaging">
-          https://github.com/bencromwell/2-way-json-messaging
-        </a>
-      </p>
+    <div class="columns">
+      <div class="column has-background-light">
+        <h2 class="title is-4">
+          <a href="https://github.com/bencromwell/iso-3166" class="hover:text-blue-800 hover:underline">
+            ISO-3166 <span class="tag is-info">PHP</span>
+          </a>
+        </h2>
+        <p>
+          A package for interacting with ISO-3166 country codes. It's as thrilling as it sounds (but it is useful!).
+        </p>
+        <p class="mt-2">
+          <a class="is-size-7" href="https://github.com/bencromwell/iso-3166">
+            https://github.com/bencromwell/iso-3166
+          </a>
+        </p>
+      </div>
+      <div class="column has-background-light">
+        <h2 class="title is-4">
+          <a href="https://github.com/bencromwell/rust-pwgen" class="hover:text-blue-800 hover:underline">
+            pwrust <span class="tag is-danger">Rust</span>
+          </a>
+        </h2>
+        <p>
+          An initial foray into Rust. Password generator with optional bcrypt hash output.
+        </p>
+        <p class="mt-2">
+          <a class="is-size-7" href="https://github.com/bencromwell/rust-pwgen">
+            https://github.com/bencromwell/rust-pwgen
+          </a>
+        </p>
+      </div>
+      <div class="column has-background-light">
+        <h2 class="title is-4">
+          <a href="https://github.com/bencromwell/otp-cli" class="hover:text-blue-800 hover:underline">
+            otp-cli <span class="tag is-primary">Python</span>
+          </a>
+        </h2>
+        <p>
+          A basic implementation of OTP based on YAML config.
+        </p>
+        <p class="mt-2">
+          <a class="is-size-7" href="https://github.com/bencromwell/otp-cli">
+            https://github.com/bencromwell/otp-cli
+          </a>
+        </p>
+      </div>
     </div>
-    <div class="flex-1 text-gray-700 bg-blue-100 px-4 py-2 m-4 shadow-lg">
-      <h2 class="font-bold text-lg text-center mb-2">
-        <a href="https://github.com/bencromwell/microdata-parser-notifier" class="hover:text-blue-800 hover:underline">
-          Microdata Parser <span class="text-gray-600">(PHP)</span>
-        </a>
-      </h2>
-      <p>
-        CLI script for notifying a user of new schema.org Product items found within a webpage. Gumtree listing notifications.
-      </p>
-      <p class="mt-2">
-        <a class="text-blue-800 underline text-sm" href="https://github.com/bencromwell/microdata-parser-notifier">
-          https://github.com/bencromwell/microdata-parser-notifier
-        </a>
-      </p>
+    <div class="columns">
+      <div class="column has-background-light">
+        <h2 class="title is-4">
+          <a href="https://github.com/bencromwell/uk-bank-holidays" class="hover:text-blue-800 hover:underline">
+            UK-bank-holidays <span class="tag is-info">PHP</span>
+          </a>
+        </h2>
+        <p>
+          Parses gov.uk's JSON API and gives you a PHP object representation.
+        </p>
+        <p class="mt-2">
+          <a class="is-size-7" href="https://github.com/bencromwell/uk-bank-holidays">
+            https://github.com/bencromwell/uk-bank-holidays
+          </a>
+        </p>
+      </div>
+      <div class="column has-background-light">
+        <h2 class="title is-4">
+          <a href="https://github.com/bencromwell/local-setup" class="hover:text-blue-800 hover:underline">
+            Local <span class="tag is-dark">Ansible</span>
+          </a>
+        </h2>
+        <p>
+          My general dev setup as an ansible playbook.
+        </p>
+        <p class="mt-2">
+          <a class="is-size-7" href="https://github.com/bencromwell/local-setup">
+            https://github.com/bencromwell/local-setup
+          </a>
+        </p>
+      </div>
+      <div class="column has-background-light">
+        <h2 class="title is-4">
+          <a href="https://github.com/thephpleague/omnipay-paypal/pull/87" class="hover:text-blue-800 hover:underline">
+            Omnipay <span class="tag is-info">PHP</span>
+          </a>
+        </h2>
+        <p>
+          OS contribution: adding support for PayPal's instant update API to Omnipay.
+        </p>
+        <p class="mt-2">
+          <a class="is-size-7" href="https://github.com/thephpleague/omnipay-paypal/pull/87">
+            https://github.com/thephpleague/omnipay-paypal/pull/87
+          </a>
+        </p>
+      </div>
     </div>
   </div>
-  <div class="flex">
-    <div class="flex-1 text-gray-700 bg-blue-100 px-4 py-2 m-4 shadow-lg">
-      <h2 class="font-bold text-lg text-center mb-2">
-        <a href="https://github.com/bencromwell/iso-3166" class="hover:text-blue-800 hover:underline">
-          ISO-3166 <span class="text-gray-600">(PHP)</span>
-        </a>
-      </h2>
-      <p>
-        A package for interacting with ISO-3166 country codes. It's as thrilling as it sounds (but it is useful!).
-      </p>
-      <p class="mt-2">
-        <a class="text-blue-800 underline text-sm" href="https://github.com/bencromwell/iso-3166">
-          https://github.com/bencromwell/iso-3166
-        </a>
-      </p>
-    </div>
-    <div class="flex-1 text-gray-700 bg-blue-100 px-4 py-2 m-4 shadow-lg">
-      <h2 class="font-bold text-lg text-center mb-2">
-        <a href="https://github.com/bencromwell/rust-pwgen" class="hover:text-blue-800 hover:underline">
-          pwrust <span class="text-gray-600">(Rust)</span>
-        </a>
-      </h2>
-      <p>
-        An initial foray into Rust. Password generator with optional bcrypt hash output.
-      </p>
-      <p class="mt-2">
-        <a class="text-blue-800 underline text-sm" href="https://github.com/bencromwell/rust-pwgen">
-          https://github.com/bencromwell/rust-pwgen
-        </a>
-      </p>
-    </div>
-    <div class="flex-1 text-gray-700 bg-blue-100 px-4 py-2 m-4 shadow-lg">
-      <h2 class="font-bold text-lg text-center mb-2">
-        <a href="https://github.com/bencromwell/otp-cli" class="hover:text-blue-800 hover:underline">
-          otp-cli <span class="text-gray-600">(Python)</span>
-        </a>
-      </h2>
-      <p>
-        A basic implementation of OTP based on YAML config.
-      </p>
-      <p class="mt-2">
-        <a class="text-blue-800 underline text-sm" href="https://github.com/bencromwell/otp-cli">
-          https://github.com/bencromwell/otp-cli
-        </a>
-      </p>
-    </div>
+</section>
+<footer class="footer has-text-white-ter has-background-dark">
+  <div class="content has-text-centered">
+    <p>
+      &copy;2019
+    </p>
   </div>
-  <div class="flex">
-    <div class="flex-1 text-gray-700 bg-blue-100 px-4 py-2 m-4 shadow-lg">
-      <h2 class="font-bold text-lg text-center mb-2">
-        <a href="https://github.com/bencromwell/uk-bank-holidays" class="hover:text-blue-800 hover:underline">
-          UK-bank-holidays <span class="text-gray-600">(PHP)</span>
-        </a>
-      </h2>
-      <p>
-        Parses gov.uk's JSON API and gives you a PHP object representation.
-      </p>
-      <p class="mt-2">
-        <a class="text-blue-800 underline text-sm" href="https://github.com/bencromwell/uk-bank-holidays">
-          https://github.com/bencromwell/uk-bank-holidays
-        </a>
-      </p>
-    </div>
-    <div class="flex-1 text-gray-700 bg-blue-100 px-4 py-2 m-4 shadow-lg">
-      <h2 class="font-bold text-lg text-center mb-2">
-        <a href="https://github.com/bencromwell/local-setup" class="hover:text-blue-800 hover:underline">
-          Local <span class="text-gray-600">(Ansible)</span>
-        </a>
-      </h2>
-      <p>
-        My general dev setup as an ansible playbook.
-      </p>
-      <p class="mt-2">
-        <a class="text-blue-800 underline text-sm" href="https://github.com/bencromwell/local-setup">
-          https://github.com/bencromwell/local-setup
-        </a>
-      </p>
-    </div>
-    <div class="flex-1 text-gray-700 bg-blue-100 px-4 py-2 m-4 shadow-lg">
-      <h2 class="font-bold text-lg text-center mb-2">
-        <a href="https://github.com/thephpleague/omnipay-paypal/pull/87" class="hover:text-blue-800 hover:underline">
-          Omnipay <span class="text-gray-600">(PHP)</span>
-        </a>
-      </h2>
-      <p>
-        OS contribution: adding support for PayPal's instant update API to Omnipay.
-      </p>
-      <p class="mt-2">
-        <a class="text-blue-800 underline text-sm" href="https://github.com/thephpleague/omnipay-paypal/pull/87">
-          https://github.com/thephpleague/omnipay-paypal/pull/87
-        </a>
-      </p>
-    </div>
-  </div>
-</div>
+</footer>
 </body>
 </html>
